@@ -1,0 +1,30 @@
+.nav-pills {
+    border: 1px solid #575757;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(245, 155, 46);
+  }
+  
+  .nav-item {
+    flex: 1;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .nav-item a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-item a:hover {
+    background-color: rgb(238, 118, 6);
+    color: #333;
+  }
+  
+  .nav-item.active a {
+    background-color: yellow;
+    color: #333;
+  }
+  
